@@ -1,0 +1,63 @@
+.header {
+  border-bottom: 1px solid var(--color-component-background);
+
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & > img {
+      max-height: clamp(0.875rem, 5vw, 1.1875rem);
+    }
+
+    & > button {
+      width: 3.4375rem;
+      height: 2rem;
+
+      background-color: var(--color-component-background);
+      border-radius: 4px;
+
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-white);
+    }
+  }
+}
+
+.userSection {
+  padding-block: 1.875rem;
+  border-bottom: 1px solid var(--color-component-background);
+
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+.techSection {
+  & > div {
+    & > div:first-child {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.75rem;
+      margin-bottom: 1.5rem;
+
+      & > button {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: var(--color-component-background);
+        border-radius: 4px;
+
+        color: var(--color-white);
+      }
+    }
+  }
+}

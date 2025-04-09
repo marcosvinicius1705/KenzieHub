@@ -1,0 +1,54 @@
+.editForm {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1.25rem;
+  padding-top: 1.125rem;
+  padding-bottom: 2rem;
+  gap: 1rem;
+
+  background-color: var(--color-component-background);
+  border-radius: 0 0 4px 4px;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  & > button {
+    height: clamp(2.375rem, 5vw, 3rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-pink);
+    border-radius: 4px;
+
+    font-size: clamp(0.75rem, 5vw, 1rem);
+    font-weight: 500;
+    color: var(--color-white);
+  }
+
+  input,
+  select {
+    max-width: 100%;
+    height: clamp(2.375rem, 5vw, 3rem);
+    padding-left: 1rem;
+
+    background-color: var(--color-input-background);
+    border-radius: 4px;
+
+    font-size: clamp(0.75rem, 5vw, 1rem);
+    font-weight: 400;
+
+    color: var(--color-white);
+
+    &::placeholder {
+      color: var(--color-paragraph);
+    }
+
+    &:focus {
+      outline: 1px solid var(--color-white);
+    }
+  }
+}

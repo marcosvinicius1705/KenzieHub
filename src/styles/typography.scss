@@ -1,0 +1,30 @@
+.title {
+  color: var(--color-white);
+}
+
+.title.one {
+  font-size: clamp(0.875rem, 5vw, 1.125rem);
+  font-weight: 700;
+}
+
+.title.two {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.title.three {
+  font-size: clamp(0.75rem, 5vw, 0.875rem);
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: clamp(0.625rem, 5vw, 0.75rem);
+  font-weight: 400;
+  color: var(--color-paragraph);
+}
+
+.label {
+  font-size: clamp(0.625rem, 5vw, 0.75rem);
+  font-weight: 400;
+  color: var(--color-white);
+}

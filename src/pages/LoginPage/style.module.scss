@@ -1,0 +1,21 @@
+.loginBox {
+  padding-inline: 1rem;
+
+  & > div:first-child {
+    max-width: 23.0625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+    & > img {
+      max-height: clamp(0.875rem, 5vw, 1.1875rem);
+    }
+  }
+
+  & a {
+    background-color: var(--color-button-grey);
+  }
+}

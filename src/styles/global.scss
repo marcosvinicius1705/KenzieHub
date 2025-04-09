@@ -1,0 +1,24 @@
+:root {
+  --color-main-background: #121214;
+  --color-component-background: #212529;
+  --color-input-background: #343b41;
+
+  --color-pink: #ff577f;
+  --color-white: #f8f9fa;
+
+  --color-button-grey: #868e96;
+  --color-paragraph: #868e96;
+
+  --toastify-color-dark: #343b41;
+  --toastify-color-success: #3fe864;
+  --toastify-color-error: #e83f5b;
+  --toastify-text-color-info: #f8f9fa;
+
+  --toastify-toast-bd-radius: 4px;
+  --toastify-font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-main-background);
+  font-family: "Inter", sans-serif;
+}

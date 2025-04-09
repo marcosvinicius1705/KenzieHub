@@ -1,0 +1,32 @@
+.registerBox {
+  padding-inline: 1rem;
+
+  & > div:first-child {
+    max-width: 23.0625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+    & > a {
+      width: 5rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: var(--color-component-background);
+      border-radius: 4px;
+
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-white);
+    }
+  }
+
+  .p {
+    margin-top: 0rem;
+  }
+}

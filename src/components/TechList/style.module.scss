@@ -1,0 +1,9 @@
+.techList {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(1rem, 5vw, 1.5rem);
+  gap: 0.625rem;
+
+  background-color: var(--color-component-background);
+  border-radius: 4px;
+}

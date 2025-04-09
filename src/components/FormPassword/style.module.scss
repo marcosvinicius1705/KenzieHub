@@ -1,0 +1,17 @@
+.inputBox {
+  position: relative;
+  & > input {
+    width: 100%;
+  }
+
+  .eyeBox {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    transition: 1s;
+
+    & > button {
+      color: var(--color-button-grey);
+    }
+  }
+}
